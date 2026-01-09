@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
                 else->{
                     Toast.makeText(
                         this,
-                        "Login Successful\nUsername: $username",
+                        "Login Not Successful",
                         Toast.LENGTH_SHORT
                     ).show()
                 }
